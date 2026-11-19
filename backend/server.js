@@ -17,7 +17,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "cantillai.vercel.app"
+    "https://cantillai.vercel.app"
   ],
   credentials: true
 }));
