@@ -5,10 +5,10 @@ import { parseCSV, validateCSV } from "../services/csvService.js";
 import { evaluateRequest } from "../services/policyEngine.js";
 
 import Policy from "../models/Policy.js";
-import PurchaseRequest from "../models/PurchaseRequest.js";
-import Decision from "../models/Decision.js";
-import PurchaseOrder from "../models/PurchaseOrder.js";
-import SourcingRequest from "../models/SourcingRequest.js";
+import PurchaseRequest from "../models/purchaseRequest.js";
+import Decision from "../models/decision.js";
+import PurchaseOrder from "../models/purchaseOrder.js";
+import SourcingRequest from "../models/sourcingRequest.js";
 
 export async function uploadCSV(req, res) {
   let filePath;
