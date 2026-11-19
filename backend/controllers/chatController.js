@@ -4,7 +4,7 @@ import { extractPurchaseDetails } from "../services/aiService.js";
 import { evaluateRequest } from "../services/policyEngine.js";
 
 import Policy from "../models/Policy.js";
-import PurchaseRequest from "../models/PurchaseRequest.js";
+import PurchaseRequest from "../models/purchaseRequest.js";
 import Decision from "../models/Decision.js";
 import PurchaseOrder from "../models/PurchaseOrder.js";
 import SourcingRequest from "../models/SourcingRequest.js";
